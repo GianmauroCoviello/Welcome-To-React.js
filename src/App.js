@@ -29,7 +29,10 @@ function App() {
       <div className="d-flex flex-wrap justify-content-center ">
 		{/* RICHIAMIAMO I PARAMETRI DEGLI OBJECT ALL'INTERNO DELLE COMPONENTI */}
 		{/* USIAMO LO SPREAD OPERATOR PER RICHIAMARE I PARAMETRI */}
-        <FirstCard {...PrimaCard}/>
+        <FirstCard {...PrimaCard}>
+			{/* INSERIAMO UN CHILDREN */}
+			<a className={"BTN BTN-PRIMARY".toLocaleLowerCase()} href="www.getyourguide.it/Roma/Attività">SCPRI COME VENIRE A TROVARCI</a>
+		</FirstCard>
         <FirstCard {...SecondaCard}/>
         
         
