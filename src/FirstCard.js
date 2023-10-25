@@ -7,12 +7,12 @@ function FirstCard(props) {
     <div>
         <div className='container-card mb-4'>
             <div className='p-3'>
-              {/* INSERIAMO ALL'INTERNO DEI TAG LE PROPS CON IL NOME DELLA VARIABILE CONTENENTE IL PARAMTRO DELL'OBJECT IN APP.JS */}
+              {/* INSERIAMO ALL'INTERNO DEI TAG LE PROPS  CONTENENTE IL PARAMETRO DELL'OBJECT IN APP.JS */}
                 <h4 className='text-primary text-center pt-2'>{props.nome}</h4>
-                <img src={props.Img} width='250px'/>
+                <img src={props.img} width='250px' height={'150px'}/>
                 <p className='text-light'>{props.description}</p>
             </div>
-            
+           
         </div>
     </div>
   )

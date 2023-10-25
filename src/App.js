@@ -19,6 +19,8 @@ let SecondaCard = {
 
 }
 
+
+
 function App() {
   return (
     <div className="App ">
@@ -26,8 +28,9 @@ function App() {
       
       <div className="d-flex flex-wrap justify-content-center ">
 		{/* RICHIAMIAMO I PARAMETRI DEGLI OBJECT ALL'INTERNO DELLE COMPONENTI */}
-        <FirstCard nome={PrimaCard.nome} Img={PrimaCard.img} description ={PrimaCard.description}/>
-        <FirstCard nome={SecondaCard.nome} Img={SecondaCard.img} description ={SecondaCard.description} />
+		{/* USIAMO LO SPREAD OPERATOR PER RICHIAMARE I PARAMETRI */}
+        <FirstCard {...PrimaCard}/>
+        <FirstCard {...SecondaCard}/>
         
         
       </div>
