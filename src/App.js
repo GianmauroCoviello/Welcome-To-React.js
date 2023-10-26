@@ -26,11 +26,11 @@ function App() {
 		{/* <p className="text-success">{arr.map((el)=> <h2>{el}</h2>)}</p> */}
         
 		{/* mappo l'array di oggetti e returno la componente firstcard e con lo apread operator prendo le props quindi in parametri dell'array di oggetti */}
-        {Cards.map((card, children)=>{
+        {Cards.map((card)=>{
 			// metodo 1 per destrutturare la key attraverso l'id
 			// const {id} = card
 			// metodo 2
-			return <FirstCard key={card.id} {...card}><button onClick={() =>  alert(`bravo sei a ${card.nome}`)} className="btn btn-danger">scopri dove mi trovo</button></FirstCard>
+			return <FirstCard key={card.id} {...card}/>
 		})}
       </div>
       
