@@ -22,6 +22,8 @@ let SecondaCard = {
 
 
 function App() {
+// primo esempio di array
+//   let arr = ['marcus', 'nino', 'marco','yyuppy']
   return (
     <div className="App ">
       <h1 className="my-3">LA MIA PRIMA CARD CON COMPONENTI</h1>
@@ -34,6 +36,8 @@ function App() {
 			<a className={"BTN BTN-PRIMARY".toLocaleLowerCase()} href="www.getyourguide.it/Roma/Attività">SCPRI COME VENIRE A TROVARCI</a>
 		</FirstCard>
         <FirstCard {...SecondaCard}/>
+		{/* esempio di mappatura e scomposizione di un array */}
+		{/* <p className="text-success">{arr.map((el)=> <h2>{el}</h2>)}</p> */}
         
         
       </div>

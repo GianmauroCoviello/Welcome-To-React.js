@@ -11,9 +11,10 @@ function FirstCard(props) {
         <div className='container-card mb-4'>
             <div className='p-3'>
               {/* INSERIAMO ALL'INTERNO DEI TAG LE PROPS  CONTENENTE IL PARAMETRO DELL'OBJECT IN APP.JS */}
-                <h4 className='text-primary text-center pt-2'>{nome}</h4>
+                <h4 className=' text-center pt-2'>{nome}</h4>
                 <img src={img} width='250px' height={'150px'}/>
-                <p className='text-light'>{description}</p>
+                <hr/>
+                <p className='text-light pt-1'>{description}</p>
                 {children}
             </div>
            
