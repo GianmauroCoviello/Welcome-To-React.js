@@ -32,7 +32,7 @@ let Cards = [
 		id:5,
 		nome: 'LAVELLO',
 		img: 'https://2.bp.blogspot.com/-KeUhV3cgpXM/VyJ01D6rSpI/AAAAAAAAj7c/yHLqwI-WGEMpaVGQQmnCoiNuSS4XezbBgCLcB/s1600/Lavello%2Bistituto%2Bcomprensivo%2B1%2BIMG_1443.jpg',
-		description: 'Lavello - Basilicata Turistica È uno dei comuni della splendida area del Vulture e in esso si concentrano diversi luoghi di interesse storico-artistico che testimoniano le sue antiche origini.'
+		description: 'Lavello - Basilicata Turistica È uno dei comuni della splendida area del Vulture e in esso si concentrano diversi luoghi di interesse storico-artistico che testimoniano le sue antiche origini.'.toLocaleUpperCase(),
 	},
 ]
 

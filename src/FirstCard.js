@@ -15,7 +15,8 @@ function FirstCard(props) {
                 <img src={img} width='250px' height={'150px'}/>
                 <hr/>
                 <p className='text-light pt-1'>{description}</p>
-                {/* {children} */}
+                {children}
+                
             </div>
            
         </div>
