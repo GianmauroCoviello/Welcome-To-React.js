@@ -30,8 +30,14 @@ function App() {
 			// metodo 1 per destrutturare la key attraverso l'id
 			// const {id} = card
 			// metodo 2
-			return <FirstCard key={card.id} {...card}/>
+			return (
+				<FirstCard key={card.id} {...card}/>
+				
+			) 
+			
 		})}
+
+		
       </div>
       
 
