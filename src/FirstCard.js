@@ -7,8 +7,19 @@ function FirstCard(props) {
   const {nome, img, description} = props
   
   // facciamo una funzione che richiameremo nell'evento
-  const ClickMe = () =>{
-    console.log(`BRAVOOOOO hai selezionata l immagine riguardante ${nome}`)
+  // funzione con doppio funzione
+  const ClickMe = (descrizione) => (e) =>{
+    console.log(e.target.innerText)
+    console.log(descrizione)
+    
+
+  }
+
+  // singola funzione
+  const ClickMe1 = (City)=>{
+   
+    console.log(City)
+    
 
   }
   return (
@@ -17,11 +28,11 @@ function FirstCard(props) {
             <div className='p-3'>
               {/* INSERIAMO ALL'INTERNO DEI TAG LE PROPS  CONTENENTE IL PARAMETRO DELL'OBJECT IN APP.JS */}
                 <h4 className=' text-center pt-2'>{nome}</h4>
-                <img onClick={ClickMe} src={img} width='250px' height={'150px'}/>
+                <img onClick={()=>ClickMe1(nome)} src={img} width='250px' height={'150px'}/>
                 <hr/>
                 <p className='text-light pt-1'>{description}</p>
                 <button onClick={() =>  alert(`bravo sei a ${nome}`)} className="btn btn-danger">scopri dove mi trovo</button>
-                
+                <button className='btn btn-success' onClick={ClickMe(nome)}>Questa è</button>
             </div>
            
         </div>
