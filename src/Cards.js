@@ -2,37 +2,38 @@ let Cards = [
 	{
 		id:1,
 		nome: 'ROMA',
-		img: 'http://traveldigg.com/wp-content/uploads/2016/05/Colosseum-Photography.jpg',
-		description: 'Cè tempo fino alle ore 12.00 del 2 novembre 2023 per presentare i progetti che verranno selezionati per gli spettacoli da realizzare nel Sistema Musei di Roma Capitale. Sarà infatti il 25 novembre l’appuntamento di quest’anno con la nuova edizione di Musei in Musica, uno dei fiori all’occhiello del programma culturale e di intrattenimento capitolino.'.toLocaleUpperCase()
-		
+		img: 'http://1000marcas.net/wp-content/uploads/2020/10/Roma-logo.jpg',
+		description: 'Nell’estate del 1927, con grande soddisfazione degli sportivi romani dell’epoca, attraverso la fusione fra le tre società sportive Alba-Audace, Fortitudo-ProRoma e Foot Ball Club di Roma (meglio noto come Roman) nacque l Associazione Sportiva Roma'.toLocaleUpperCase(),
+		derby: 'ROMA-LAZIO'
 	},
 	{
 		id:2,
-		nome: 'MILANO',
-		img: 'https://images2-milano.corriereobjects.it/methode_image/2015/02/18/Milano/Foto%20Gallery/duomo_LI34321_2_MGZOOM.jpg',
-		description: 'Cè tempo fino alle ore 12.00 del 2 novembre 2023 per presentare i progetti che verranno selezionati per gli spettacoli da realizzare nel Sistema Musei di Roma Capitale. Sarà infatti il 25 novembre l’appuntamento di quest’anno con la nuova edizione di Musei in Musica, uno dei fiori all’occhiello del programma culturale e di intrattenimento capitolino.'.toLocaleUpperCase()
-	  
+		nome: 'JUVENTUS',
+		img: 'https://logodownload.org/wp-content/uploads/2017/02/juventus-logo-1.png',
+		description: 'La storia della Juventus Football Club, società calcistica italiana per azioni con sede a Torino fondata da giovani studenti torinesi alla fine del XIX secolo, '.toLocaleUpperCase(),
+		derby: 'JUVENTUS-TORINO'
 	},
 	
 	{
 		id:3,
-		nome: 'ROMA',
-		img: 'http://traveldigg.com/wp-content/uploads/2016/05/Colosseum-Photography.jpg',
-		description: 'Cè tempo fino alle ore 12.00 del 2 novembre 2023 per presentare i progetti che verranno selezionati per gli spettacoli da realizzare nel Sistema Musei di Roma Capitale. Sarà infatti il 25 novembre l’appuntamento di quest’anno con la nuova edizione di Musei in Musica, uno dei fiori all’occhiello del programma culturale e di intrattenimento capitolino.'.toLocaleUpperCase()
-		
+		nome: 'MILAN',
+		img: 'https://wallpaperaccess.com/full/1292367.jpg',
+		description: 'toria del Milan, squadra di calcio di Milano fondata nel 1899 e resa vincente durante gli anni '.toLocaleUpperCase(),
+		derby: 'MILAN-INTER'
 	},
 	{
 		id:4,
-		nome: 'MILANO',
-		img: 'https://images2-milano.corriereobjects.it/methode_image/2015/02/18/Milano/Foto%20Gallery/duomo_LI34321_2_MGZOOM.jpg',
-		description: 'Cè tempo fino alle ore 12.00 del 2 novembre 2023 per presentare i progetti che verranno selezionati per gli spettacoli da realizzare nel Sistema Musei di Roma Capitale. Sarà infatti il 25 novembre l’appuntamento di quest’anno con la nuova edizione di Musei in Musica, uno dei fiori all’occhiello del programma culturale e di intrattenimento capitolino.'.toLocaleUpperCase()
-	  
+		nome: 'INTER',
+		img: 'https://tse3.mm.bing.net/th?id=OIP.KhYJervbBz0gaE0crmwGwgHaDw&pid=Api&P=0&h=180',
+		description: 'La storia del Football Club Internazionale Milano, società calcistica italiana con sede nel capoluogo della Lombardia, ebbe inizio il 9 marzo 1908,'.toLocaleUpperCase(),
+		derby: 'MILAN-INTER'
 	},
 	{
 		id:5,
-		nome: 'LAVELLO',
-		img: 'https://2.bp.blogspot.com/-KeUhV3cgpXM/VyJ01D6rSpI/AAAAAAAAj7c/yHLqwI-WGEMpaVGQQmnCoiNuSS4XezbBgCLcB/s1600/Lavello%2Bistituto%2Bcomprensivo%2B1%2BIMG_1443.jpg',
-		description: 'Lavello - Basilicata Turistica È uno dei comuni della splendida area del Vulture e in esso si concentrano diversi luoghi di interesse storico-artistico che testimoniano le sue antiche origini.'.toLocaleUpperCase(),
+		nome: 'NAPOLI',
+		img: 'http://vignette4.wikia.nocookie.net/the-football-database/images/d/d9/Napoli_logo_001.jpg/revision/latest?cb=20130606165804',
+		description: 'L’attuale Società Sportiva Calcio Napoli venne fondata nel 1926 dal cambio di denominazione in Associazione Calcio Napoli di un’altra società partenopea, l’Internaples'.toLocaleUpperCase(),
+		derby: 'NAPOLI-SALERNITANA'
 	},
 ]
 

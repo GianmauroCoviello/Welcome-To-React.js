@@ -12,7 +12,11 @@ function App() {
 //   let arr = ['marcus', 'nino', 'marco','yyuppy']
   return (
     <div className="App ">
-      <h1 className="my-3">LA MIA PRIMA CARD CON COMPONENTI</h1>
+		<div className="d-flex my-5 justify-content-center">
+			<h1 className="mt-3 me-5"><em></em> </h1>
+			<img width={'80px'} height={'120px'} src="https://i.pinimg.com/originals/ff/fa/a2/fffaa22a80debb6ce84fa1b1b9cd5cc5.png"/>
+		</div>
+      
       
       <div className="d-flex flex-wrap justify-content-center ">
 		{/* RICHIAMIAMO I PARAMETRI DEGLI OBJECT ALL'INTERNO DELLE COMPONENTI */}
